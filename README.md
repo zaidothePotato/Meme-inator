@@ -12,3 +12,6 @@ Main Goals:
 - make code
 
 
+here is Mr Burrs Discord Bot template
+https://github.com/timburr1/discord-bot-template
+
