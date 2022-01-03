@@ -2,7 +2,7 @@
   "name": "discord-bot-template",
   "version": "1.0.0",
   "description": "Enough to get you started",
-  "main": "app.js",
+  "main": "bot.js",
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^9.0.2"
@@ -23,10 +23,10 @@
     "discord",
 	"memes"
   ],
-  "author": "Tim Burr",
+  "author": "Zaiden Quinn",
   "license": "CC0",
   "bugs": {
-    "url": "https://github.com/timburr1/discord-bot-template/issues"
+    "url": "https://github.com/zaidothePotato/Meme-inator/issues"
   },
-  "homepage": "https://github.com/timburr1/discord-bot-template#readme"
+  "homepage": "https://github.com/zaidothePotato/Meme-inator"
 }
