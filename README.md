@@ -1,4 +1,4 @@
-# Memenator
+# Meme-inator
 a bot we need to work so we pass our coding class
 
 The key character is going to be "!"
