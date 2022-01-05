@@ -45,7 +45,7 @@ client.on('message', msg => {
     }else if(msg.content ===`${PREFIX}help`){
       msg.channel.send("!ping-@-everyone");
 
-      msg.channel.send("meme--sends a random meme");
+      msg.channel.send("!meme--sends a random meme");
 
       msg.channel.send("!Self Destruct--explodes"); 
       
