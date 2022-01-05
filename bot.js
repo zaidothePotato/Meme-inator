@@ -26,7 +26,6 @@ client.on('ready', () => {
 
 
 
-
 client.on('message', msg => {
   var args = msg.content.slice(PREFIX.length).trim().split(' ');
   var command = args.shift().toLowerCase();
@@ -36,6 +35,8 @@ client.on('message', msg => {
     }else if (msg.content === `${PREFIX}meme`) {
       const randomMeme = memes[Math.floor(Math.random() * memes.length)];
       msg.channel.send(randomMeme); 
+   }else if(msg.content === `${PREFIX}Self Destruct`){
+    msg.channel.send("💥");
    }
   //  msg.react('<:blubber:928063851163955203>');
     
