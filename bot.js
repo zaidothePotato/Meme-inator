@@ -43,13 +43,13 @@ client.on('message', msg => {
       msg.channel.send("My name is Dr. Heinz Doofenshmirtz and this is my meme-inator, its a working progress for now, but it will get some updates now and than");
 
     }else if(msg.content ===`${PREFIX}help`){
-      msg.channel.send("!ping-@-everyone"(""),
-        
-        "meme--sends a random meme",
-        
-        "!Self Destruct--explodes",
-       
-        "!name--about me");
+      msg.channel.send("!ping-@-everyone");
+
+      msg.channel.send("meme--sends a random meme");
+
+      msg.channel.send("!Self Destruct--explodes"); 
+      
+      msg.channel.send("!name--about me");
     
         }else if(msg.content ===`${PREFIX}joke`){
       msg.channel.send("What are the 2 hardest things in coding. Naming things and off-by-one errors");
