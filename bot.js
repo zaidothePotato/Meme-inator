@@ -40,7 +40,7 @@ client.on('message', msg => {
     }else if(msg.content === `${PREFIX}name`){
       msg.channel.send("My name is Dr. Heinz Doofenshmirtz and this is my meme-inator, its a working progress for now, but it will get some updates now and than");
     }else if(msg.content ===`${PREFIX}help`){
-      msg.channel.send("!ping-@everyone", "!meme-shows a random meme", "!Self Destruct--explodes", "!name--about me");
+            msg.channel.send("!ping-@-everyone !meme-shows a random meme !Self Destruct--explodes !name--about me");
     }
   //  msg.react('<:blubber:928063851163955203>');
     
