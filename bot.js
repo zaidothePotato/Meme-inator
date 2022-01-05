@@ -48,8 +48,10 @@ client.on('message', msg => {
       msg.channel.send("!meme--sends a random meme");
 
       msg.channel.send("!Self Destruct--explodes"); 
-      
+
       msg.channel.send("!name--about me");
+
+      msg.channel.send("!joke--sends one joke xd");
     
         }else if(msg.content ===`${PREFIX}joke`){
       msg.channel.send("What are the 2 hardest things in coding. Naming things and off-by-one errors");
