@@ -35,7 +35,7 @@ client.on('message', msg => {
     }else if (msg.content === `${PREFIX}meme`) {
       const randomMeme = memes[Math.floor(Math.random() * memes.length)];
       msg.channel.send(randomMeme); 
-      
+
     }else if(msg.content === `${PREFIX}Self Destruct`){
       msg.channel.send("💥");
 
@@ -43,10 +43,13 @@ client.on('message', msg => {
       msg.channel.send("My name is Dr. Heinz Doofenshmirtz and this is my meme-inator, its a working progress for now, but it will get some updates now and than");
 
     }else if(msg.content ===`${PREFIX}help`){
-      msg.channel.send("!ping-@-everyone",
-        "meme-shows a random meme",
+      msg.channel.send("!ping-@-everyone"(""),
+        
+        "meme--sends a random meme",
+        
         "!Self Destruct--explodes",
-         "!name--about me");
+       
+        "!name--about me");
     
         }else if(msg.content ===`${PREFIX}joke`){
       msg.channel.send("What are the 2 hardest things in coding. Naming things and off-by-one errors");
