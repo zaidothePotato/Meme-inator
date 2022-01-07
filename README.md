@@ -11,7 +11,7 @@ Main Goals:
 -Get it into the test server
 - make code
 
-Made by Zaiden, Ben and 
+Made by Zaiden, Ben and Aaron
 here is Mr Burrs Discord Bot template
 https://github.com/timburr1/discord-bot-template
 
