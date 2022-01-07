@@ -52,14 +52,10 @@ client.on('message', msg => {
       msg.channel.send("**!name**--*About me*");
 
       msg.channel.send("**!joke**--*Sends one joke xd*");
-
-      msg.channel.send("**!setup**-- *Sends my gaming setup*");
     
       }else if(msg.content ===`${PREFIX}joke`){
         msg.channel.send("What are the 2 hardest things in coding. Naming things and off-by-one errors");
 
-      }else if(msg.content === `${PREFIX}setup`){
-        msg.channel.send("In production at the moment");
 
     }
   //  msg.react('<:blubber:928063851163955203>');
